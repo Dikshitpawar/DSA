@@ -54,21 +54,21 @@
 
 // Bijli bill
 
-let unit = Number(prompt("Enter a unit"));
-let ans = 0
-if(unit>0 && unit<=100){
-    ans = unit * 4.2
-}
-else if(unit>100 && unit<=200){
-    ans = unit * 6
-}
-else if(unit>200 && unit<=400){
-    ans = unit * 8
-}
-else if(unit>400){
-    ans = unit *130
-}
-else{
-    console.log("Invalid input");
-}
-console.log("Your bill is", ans);
+// let unit = Number(prompt("Enter a unit"));
+// let ans = 0
+// if(unit>0 && unit<=100){
+//     ans = unit * 4.2
+// }
+// else if(unit>100 && unit<=200){
+//     ans = unit * 6
+// }
+// else if(unit>200 && unit<=400){
+//     ans = unit * 8
+// }
+// else if(unit>400){
+//     ans = unit *130
+// }
+// else{
+//     console.log("Invalid input");
+// }
+// console.log("Your bill is", ans);
