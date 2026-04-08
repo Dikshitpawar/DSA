@@ -139,3 +139,20 @@ for(let i=0; i<arr.length; i++){
 }
 
 console.log(temp)
+
+
+
+//Linear Search an array - If element found print the index else -1
+let arr = [12,54,33,41,88,7];
+let element = Number(prompt("Enter a number"));
+let result = findIndex(arr,element);
+console.log("Index====>" , result)
+
+function findIndex(arr, element){
+    for(let i=0; i<arr.length; i++){
+    if(arr[i] === element){
+        return i
+    }
+    }
+    return -1;
+}
