@@ -141,6 +141,29 @@ for(let i=0; i<arr.length; i++){
 console.log(temp)
 
 
+//METHOS 3
+let arr = [1,2,3,4,5,6];
+let k = Number(prompt("Enter the number"));
+
+k = k % arr.length;
+
+reverseArray(arr , 0, k-1);
+reverseArray(arr, k, arr.length-1);
+reverseArray(arr , 0, arr.length-1);
+
+console.log(arr);
+
+function reverseArray(arr, i ,j){
+    while(i < j){
+        let temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        i++;
+        j--;
+    }
+}
+
+
 
 //Linear Search an array - If element found print the index else -1
 let arr = [12,54,33,41,88,7];

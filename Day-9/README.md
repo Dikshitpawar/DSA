@@ -83,6 +83,13 @@ Find the second largest element.
 * Use modulo
 * Create new array using `(i + k) % n`
 
+### Method 3 (Efficient):
+
+* Reverse first k elements
+* Reverse remaining elements
+* Reverse entire array
+
+
 ---
 
 ## 🧠 Key Concepts Learned
